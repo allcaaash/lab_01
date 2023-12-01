@@ -1,20 +1,12 @@
 package lab01;
-import java.util.Scanner;
 
 public class example19_02 {
     public static void main(String[] args) {
 
-        Scanner scanner = new Scanner(System.in);
+        int num = 100;
+        System.out.println("num: " + num);
+        num = num * 2;
 
-        String name = "";
-        int age = 0;
-
-        System.out.print("Enter your name: ");
-        name = scanner.next();
-
-        System.out.print("Enter your age: ");
-        age = scanner.nextInt();
-
-        System.out.format("Your name - %s, your age - %s y.o", name, age);
+        System.out.println("num * 2 = " + num);
     }
 }
