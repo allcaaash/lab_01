@@ -12,5 +12,7 @@ public class example19_10 {
 
         System.out.printf("%s + %s = %s\n", firstNum, secondNum, firstNum + secondNum);
         System.out.printf("%s - %s = %s\n", firstNum, secondNum, firstNum - secondNum);
+
+        in.close();
     }
 }
